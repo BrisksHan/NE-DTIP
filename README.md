@@ -3,7 +3,7 @@ NE-DTIP: a Network Embedding Approach for Drug Target Interaction Prediction wit
 
 python version: 3.6
 
-package require: numpy scipy gensim
+package require: numpy scipy gensim networkx
 
 the version will be added soon.
 
