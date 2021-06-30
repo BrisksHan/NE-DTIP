@@ -1,6 +1,17 @@
 # NE-DTIP
 NE-DTIP: a Network Embedding Approach for Drug Target Interaction Prediction with Implicit Network
 
+```
+@inproceedings{zhang2021network,
+  title={A Network Embedding Based Approach to Drug-Target Interaction Prediction Using Additional Implicit Networks},
+  author={Zhang, Han and Hou, Chengbin and McDonald, David and He, Shan},
+  booktitle={International Conference on Artificial Neural Networks},
+  year={2021},
+  organization={Springer}
+}
+```
+
+
 python version: 3.6
 
 package require: numpy scipy gensim networkx
