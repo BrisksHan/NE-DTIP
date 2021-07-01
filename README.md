@@ -1,5 +1,5 @@
 # NE-DTIP
-NE-DTIP: a Network Embedding Approach for Drug Target Interaction Prediction with Implicit Network
+A Network Embedding Based Approach to Drug-Target Interaction Prediction Using Additional Implicit Networks, ICANN2021, to appear
 
 ```
 @inproceedings{zhang2021network,
