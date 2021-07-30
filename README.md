@@ -14,12 +14,12 @@ A Network Embedding Based Approach to Drug-Target Interaction Prediction Using A
 ## Brief Introduction
 Unlike previous DTI prediction methods, the proposed method additionally considers two homogeneous networks, i.e., TIN and DIN, both of which are generated based on the implicit relations of a given DTI network.
 <center>
-    <img src="https://github.com/BrisksHan/NE-DTIP/blob/main/data/Fig6.1.PNG" width="800"/>
+    <img src="https://github.com/BrisksHan/NE-DTIP/blob/main/data/Fig6.1.PNG" width="300"/>
 </center>
 
 The overview of the proposed method, which includes two stages: the feature vector construction stage and the DTI classification stage.
 <center>
-    <img src="https://github.com/BrisksHan/NE-DTIP/blob/main/data/Fig6.2.PNG" width="800"/>
+    <img src="https://github.com/BrisksHan/NE-DTIP/blob/main/data/Fig6.2.PNG" width="500"/>
 </center>
 
 Apart from the benchmark over several datasets and state-of-the-art methods, we also conduct a case study to verify the top-20 DTI predictions by the proposed method on DT-IN dataset.
