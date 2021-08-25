@@ -1,5 +1,5 @@
 # NE-DTIP
-A Network Embedding Based Approach to Drug-Target Interaction Prediction Using Additional Implicit Networks, ICANN2021, to appear
+[A Network Embedding Based Approach to Drug-Target Interaction Prediction Using Additional Implicit Networks, ICANN2021, to appear](https://github.com/BrisksHan/NE-DTIP/blob/main/NE-DTIP_ICANN%202021.pdf)
 
 ```
 @inproceedings{zhang2021network,
