@@ -9,20 +9,20 @@ import numpy as np
 def parse_args():
     parser = ArgumentParser(formatter_class=ArgumentDefaultsHelpFormatter, conflict_handler='resolve')
     # -----------------------------------------------general settings--------------------------------------------------
-    #parser.add_argument('--dti_path', default='data/NE-IN_DTI.pkl')
-    #parser.add_argument('--drug_sim_path', default = 'data/NE-IN_drug_similarity.pkl')
-    #parser.add_argument('--target_sim_path',default = 'data/NE-IN_target_similarity.pkl')
-    parser.add_argument('--dti_path', default='data/ic_DTI.pkl')
-    parser.add_argument('--drug_sim_path', default = 'data/ic_drug_similarity.pkl')
-    parser.add_argument('--target_sim_path',default = 'data/ic_target_similarity.pkl')
+    parser.add_argument('--dti_path', default='data/NE-IN_DTI.pkl')
+    parser.add_argument('--drug_sim_path', default = 'data/NE-IN_drug_similarity.pkl')
+    parser.add_argument('--target_sim_path',default = 'data/NE-IN_target_similarity.pkl')
+    #parser.add_argument('--dti_path', default='data/ic_DTI.pkl')
+    #parser.add_argument('--drug_sim_path', default = 'data/ic_drug_similarity.pkl')
+    #parser.add_argument('--target_sim_path',default = 'data/ic_target_similarity.pkl')
     parser.add_argument('--worker', default=4)
     parser.add_argument('--dim',default = 128)
     parser.add_argument('--ns', default=0)#strategy 0 , 1, 2
     parser.add_argument('--walk_num', default=10)
     parser.add_argument('--walk_length', default=80)
     parser.add_argument('--negative_number', default=5)
-    parser.add_argument('--sparsity', default=0.04)
-    parser.add_argument('--output_name', default='unkown')
+    parser.add_argument('--sparsity', default=0.1)
+    parser.add_argument('--output_name', default='NE-IN')
     args = parser.parse_args()
     return args
 

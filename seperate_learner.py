@@ -1,6 +1,9 @@
 import DeepWalk_edge_weight
 import numpy as np
 import utils
+#sklearn 0.23.2
+
+#sklearn version on bluebear 0.21.3
 
 
 class two_stage_learning():
