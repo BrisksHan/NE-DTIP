@@ -43,4 +43,4 @@ There are demo provided. The input should be pkl file of networkx object.
 
 Later, we will add a new function to take .txt file as input.
 
-If you have any questions, please send a Email to hxz325@cs.bham.ac.uk
+If you have any questions, please send a Email to hanzhang89@qq.com
