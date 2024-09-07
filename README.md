@@ -1,11 +1,12 @@
 # NE-DTIP
-[A Network Embedding Based Approach to Drug-Target Interaction Prediction Using Additional Implicit Networks, ICANN2021, to appear](https://github.com/BrisksHan/NE-DTIP/blob/main/NE-DTIP_ICANN%202021.pdf)
+[A Network Embedding Based Approach to Drug-Target Interaction Prediction Using Additional Implicit Networks, ICANN2021](https://github.com/BrisksHan/NE-DTIP/blob/main/NE-DTIP_ICANN%202021.pdf)
 
 ```
 @inproceedings{zhang2021network,
-  title={A Network Embedding Based Approach to Drug-Target Interaction Prediction Using Additional Implicit Networks},
+  title={A network embedding based approach to drug-target interaction prediction using additional implicit networks},
   author={Zhang, Han and Hou, Chengbin and McDonald, David and He, Shan},
-  booktitle={International Conference on Artificial Neural Networks},
+  booktitle={Artificial Neural Networks and Machine Learning--ICANN 2021: 30th International Conference on Artificial Neural Networks, Bratislava, Slovakia, September 14--17, 2021, Proceedings, Part I 30},
+  pages={491--503},
   year={2021},
   organization={Springer}
 }
@@ -40,7 +41,5 @@ the version will be added soon.
 The approach take DTI network, Drug Strucutural Similarity Network and Taget Sequence Similarity Network as input.
 
 There are demo provided. The input should be pkl file of networkx object. 
-
-Later, we will add a new function to take .txt file as input.
 
 If you have any questions, please send a Email to hanzhang89@qq.com
